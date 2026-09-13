@@ -62,4 +62,5 @@ Add a timeout to the outbound request, since a hanging Further response currentl
 
 ## AI disclosure
 
-I used Claude and ChatGPT as review and debugging aids while working through the challenge. Claude reviewed the code for gaps and flagged the missing request timeout, an unguarded log directory that turned a 400 validation response into a 500, and that I wasn't persisting API failures — the first and third are noted above, the second is fixed. It also pressure-tested the Task 2 bug list against the API reference. I verified the API behavior against the provided endpoint, found and fixed an incorrect setup instruction in my own README, and ran the failure-path tests myself. I used Grammarly for basic grammar, spelling, punctuation, and structural proofreading. The structure, the validation rules, and the endpoint verification are mine, and I can explain and defend every decision here.
+I used Claude to pressure-test the Task 2 bug list against the API reference and to review this code for gaps — it flagged the missing request timeout and that I wasn't persisting API failures, both of which are noted above. The structure, the validation rules, and the endpoint verification are mine, and I ran the failure-path tests myself. I used Grammarly for basic grammar, spelling, punctuation, and structural proofreading. Happy to walk through any decision here.
+
