@@ -1,0 +1,5 @@
+.env
+logs/*.jsonl
+!logs/.gitkeep
+node_modules/
+.DS_Store

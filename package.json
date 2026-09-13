@@ -1,0 +1,13 @@
+{
+  "name": "further-technical-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ISE Technical Challenge - Further lead ingestion form and written responses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
